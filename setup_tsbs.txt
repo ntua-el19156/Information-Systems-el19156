@@ -1,0 +1,9 @@
+git clone https://github.com/timescale/tsbs.git
+wget https://go.dev/dl/go1.21.4.linux-amd64.tar.gz
+tar -xvf go*.tar.gz
+sudo mv go /usr/local
+echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
+source ~/.bashrc
+sudo apt install make
+cd tsbs
+make
