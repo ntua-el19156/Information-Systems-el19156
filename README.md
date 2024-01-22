@@ -4,18 +4,7 @@ This project's goal is to compare the two database systems and find where does o
 
 # TSBS Setup
 
-For this research two Ubuntu Virtual Machines were used. One hosted InfluxDB and the other hosted QuestDB. Both had TSBS installed, and this is how to properly install it.
-
-git clone https://github.com/timescale/tsbs.git
-wget https://go.dev/dl/go1.21.4.linux-amd64.tar.gz
-tar -xvf go*.tar.gz
-sudo mv go /usr/local
-echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
-source ~/.bashrc
-sudo apt install make
-cd tsbs
-make
-
-The commands above imply that GO is not already installed.
+For this research two Ubuntu Virtual Machines were used. One hosted InfluxDB and the other hosted QuestDB. Both had TSBS installed, and in order to recreate the experiment the first step is to properly install TSBS as shown in the setup_tsbs.txt file.
+The commands imply that GO is not already installed.
 After the commands are executed, TSBS is installed. You will find commands and scripts to produce data for each database in their corresponding folder.
 
