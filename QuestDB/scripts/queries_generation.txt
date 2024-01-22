@@ -1,0 +1,1 @@
+./tsbs_generate_queries --use-case="cpu-only" --seed=1204 --scale=5000 --timestamp-start="2023-01-01T00:00:00Z" --timestamp-end="2023-01-04T00:00:00Z" --queries=300 --query-type="<QUERY-TYPE>" --format="questdb" | gzip > /tmp/queries/questdb-<QUERY-TYPE>-queries.gz

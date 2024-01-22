@@ -1,0 +1,427 @@
+questdb-single-groupby-1-1-1-queries
+
+
+After 100 queries with 4 workers:
+Interval query rate: 16.13 queries/sec  Overall query rate: 16.13 queries/sec
+QuestDB 1 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:    14.62ms, med:   179.20ms, mean:   246.47ms, max: 1664.26ms, stddev:   258.89ms, sum:  24.6sec, count: 100
+all queries                                                    :
+min:    14.62ms, med:   179.20ms, mean:   246.47ms, max: 1664.26ms, stddev:   258.89ms, sum:  24.6sec, count: 100
+
+After 200 queries with 4 workers:
+Interval query rate: 44.82 queries/sec  Overall query rate: 23.72 queries/sec
+QuestDB 1 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     3.57ms, med:    90.46ms, mean:   168.12ms, max: 1664.26ms, stddev:   209.62ms, sum:  33.6sec, count: 200
+all queries                                                    :
+min:     3.57ms, med:    90.46ms, mean:   168.12ms, max: 1664.26ms, stddev:   209.62ms, sum:  33.6sec, count: 200
+
+After 300 queries with 4 workers:
+Interval query rate: 118.16 queries/sec Overall query rate: 32.33 queries/sec
+QuestDB 1 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     2.13ms, med:    56.82ms, mean:   123.61ms, max: 1664.26ms, stddev:   183.68ms, sum:  37.1sec, count: 300
+all queries                                                    :
+min:     2.13ms, med:    56.82ms, mean:   123.61ms, max: 1664.26ms, stddev:   183.68ms, sum:  37.1sec, count: 300
+
+Run complete after 300 queries with 4 workers (Overall query rate 32.21 queries/sec):
+tee: query_questdb_questdb-single-groupby-1-1-1-queries.out: No space left on device
+QuestDB 1 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     2.13ms, med:    56.82ms, mean:   123.61ms, max: 1664.26ms, stddev:   183.68ms, sum:  37.1sec, count: 300
+all queries                                                    :
+min:     2.13ms, med:    56.82ms, mean:   123.61ms, max: 1664.26ms, stddev:   183.68ms, sum:  37.1sec, count: 300
+wall clock time: 9.355757sec
+
+
+questdb-single-groupby-1-1-12-queries
+
+
+After 100 queries with 4 workers:
+Interval query rate: 43.95 queries/sec  Overall query rate: 43.95 queries/sec
+QuestDB 1 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:     5.78ms, med:    57.65ms, mean:    84.08ms, max:  491.42ms, stddev:    83.13ms, sum:   8.4sec, count: 100
+all queries                                                     :
+min:     5.78ms, med:    57.65ms, mean:    84.08ms, max:  491.42ms, stddev:    83.13ms, sum:   8.4sec, count: 100
+
+After 200 queries with 4 workers:
+Interval query rate: 115.40 queries/sec Overall query rate: 63.65 queries/sec
+QuestDB 1 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:     4.72ms, med:    35.07ms, mean:    62.55ms, max:  645.34ms, stddev:    82.13ms, sum:  12.5sec, count: 200
+all queries                                                     :
+min:     4.72ms, med:    35.07ms, mean:    62.55ms, max:  645.34ms, stddev:    82.13ms, sum:  12.5sec, count: 200
+
+After 300 queries with 4 workers:
+Interval query rate: 95.42 queries/sec  Overall query rate: 71.60 queries/sec
+QuestDB 1 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:     4.66ms, med:    27.44ms, mean:    55.24ms, max:  645.34ms, stddev:    76.86ms, sum:  16.6sec, count: 300
+all queries                                                     :
+min:     4.66ms, med:    27.44ms, mean:    55.24ms, max:  645.34ms, stddev:    76.86ms, sum:  16.6sec, count: 300
+
+Run complete after 300 queries with 4 workers (Overall query rate 71.01 queries/sec):
+QuestDB 1 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+tee: query_questdb_questdb-single-groupby-1-1-12-queries.out: No space left on device
+min:     4.66ms, med:    27.44ms, mean:    55.24ms, max:  645.34ms, stddev:    76.86ms, sum:  16.6sec, count: 300
+all queries                                                     :
+min:     4.66ms, med:    27.44ms, mean:    55.24ms, max:  645.34ms, stddev:    76.86ms, sum:  16.6sec, count: 300
+wall clock time: 4.254609sec
+
+
+questdb-single-groupby-1-8-1-queries
+
+
+After 100 queries with 4 workers:
+Interval query rate: 47.38 queries/sec  Overall query rate: 47.38 queries/sec
+QuestDB 1 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:     4.80ms, med:    28.75ms, mean:    82.59ms, max:  734.98ms, stddev:   148.05ms, sum:   8.3sec, count: 100
+all queries                                                    :
+min:     4.80ms, med:    28.75ms, mean:    82.59ms, max:  734.98ms, stddev:   148.05ms, sum:   8.3sec, count: 100
+
+After 200 queries with 4 workers:
+Interval query rate: 133.98 queries/sec Overall query rate: 70.00 queries/sec
+QuestDB 1 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:     3.53ms, med:    23.17ms, mean:    57.00ms, max:  734.98ms, stddev:   110.32ms, sum:  11.4sec, count: 200
+all queries                                                    :
+min:     3.53ms, med:    23.17ms, mean:    57.00ms, max:  734.98ms, stddev:   110.32ms, sum:  11.4sec, count: 200
+
+After 300 queries with 4 workers:
+Interval query rate: 125.70 queries/sec Overall query rate: 82.13 queries/sec
+QuestDB 1 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:     2.82ms, med:    17.57ms, mean:    48.28ms, max:  734.98ms, stddev:    97.63ms, sum:  14.5sec, count: 300
+all queries                                                    :
+min:     2.82ms, med:    17.57ms, mean:    48.28ms, max:  734.98ms, stddev:    97.63ms, sum:  14.5sec, count: 300
+
+Run complete after 300 queries with 4 workers (Overall query rate 81.20 queries/sec):
+tee: query_questdb_questdb-single-groupby-1-8-1-queries.out: No space left on device
+QuestDB 1 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:     2.82ms, med:    17.57ms, mean:    48.28ms, max:  734.98ms, stddev:    97.63ms, sum:  14.5sec, count: 300
+all queries                                                    :
+min:     2.82ms, med:    17.57ms, mean:    48.28ms, max:  734.98ms, stddev:    97.63ms, sum:  14.5sec, count: 300
+wall clock time: 3.729131sec
+
+
+questdb-single-groupby-5-1-1-queries
+
+
+After 100 queries with 4 workers:
+Interval query rate: 6.95 queries/sec   Overall query rate: 6.95 queries/sec
+QuestDB 5 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     4.13ms, med:   482.61ms, mean:   560.02ms, max: 3107.97ms, stddev:   487.51ms, sum:  56.0sec, count: 100
+all queries                                                    :
+min:     4.13ms, med:   482.61ms, mean:   560.02ms, max: 3107.97ms, stddev:   487.51ms, sum:  56.0sec, count: 100
+
+After 200 queries with 4 workers:
+Interval query rate: 13.11 queries/sec  Overall query rate: 9.08 queries/sec
+QuestDB 5 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     3.90ms, med:   283.30ms, mean:   437.87ms, max: 3107.97ms, stddev:   440.40ms, sum:  87.6sec, count: 200
+all queries                                                    :
+min:     3.90ms, med:   283.30ms, mean:   437.87ms, max: 3107.97ms, stddev:   440.40ms, sum:  87.6sec, count: 200
+
+After 300 queries with 4 workers:
+Interval query rate: 38.16 queries/sec  Overall query rate: 12.18 queries/sec
+QuestDB 5 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     2.27ms, med:   170.78ms, mean:   323.26ms, max: 3107.97ms, stddev:   401.36ms, sum:  97.0sec, count: 300
+all queries                                                    :
+min:     2.27ms, med:   170.78ms, mean:   323.26ms, max: 3107.97ms, stddev:   401.36ms, sum:  97.0sec, count: 300
+
+Run complete after 300 queries with 4 workers (Overall query rate 12.16 queries/sec):
+QuestDB 5 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+tee: query_questdb_questdb-single-groupby-5-1-1-queries.out: No space left on device
+min:     2.27ms, med:   170.78ms, mean:   323.26ms, max: 3107.97ms, stddev:   401.36ms, sum:  97.0sec, count: 300
+all queries                                                    :
+min:     2.27ms, med:   170.78ms, mean:   323.26ms, max: 3107.97ms, stddev:   401.36ms, sum:  97.0sec, count: 300
+wall clock time: 24.719402sec
+
+
+questdb-single-groupby-5-1-12-queries
+
+
+After 100 queries with 4 workers:
+Interval query rate: 9.67 queries/sec   Overall query rate: 9.67 queries/sec
+QuestDB 5 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:    13.19ms, med:   271.28ms, mean:   401.30ms, max: 1863.42ms, stddev:   386.15ms, sum:  40.1sec, count: 100
+all queries                                                     :
+min:    13.19ms, med:   271.28ms, mean:   401.30ms, max: 1863.42ms, stddev:   386.15ms, sum:  40.1sec, count: 100
+
+After 200 queries with 4 workers:
+Interval query rate: 33.61 queries/sec  Overall query rate: 15.02 queries/sec
+QuestDB 5 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:    10.71ms, med:   112.08ms, mean:   263.75ms, max: 1917.89ms, stddev:   356.24ms, sum:  52.7sec, count: 200
+all queries                                                     :
+min:    10.71ms, med:   112.08ms, mean:   263.75ms, max: 1917.89ms, stddev:   356.24ms, sum:  52.7sec, count: 200
+
+After 300 queries with 4 workers:
+Interval query rate: 38.17 queries/sec  Overall query rate: 18.82 queries/sec
+QuestDB 5 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:     9.66ms, med:    48.10ms, mean:   212.23ms, max: 2107.65ms, stddev:   359.96ms, sum:  63.7sec, count: 300
+all queries                                                     :
+min:     9.66ms, med:    48.10ms, mean:   212.23ms, max: 2107.65ms, stddev:   359.96ms, sum:  63.7sec, count: 300
+
+Run complete after 300 queries with 4 workers (Overall query rate 18.77 queries/sec):
+QuestDB 5 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+tee: query_questdb_questdb-single-groupby-5-1-12-queries.out: No space left on device
+min:     9.66ms, med:    48.10ms, mean:   212.23ms, max: 2107.65ms, stddev:   359.96ms, sum:  63.7sec, count: 300
+all queries                                                     :
+min:     9.66ms, med:    48.10ms, mean:   212.23ms, max: 2107.65ms, stddev:   359.96ms, sum:  63.7sec, count: 300
+wall clock time: 16.025999sec
+
+
+questdb-single-groupby-5-8-1-queries
+
+
+After 100 queries with 4 workers:
+Interval query rate: 132.45 queries/sec Overall query rate: 132.45 queries/sec
+QuestDB 5 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:     6.33ms, med:    17.39ms, mean:    29.85ms, max:  295.07ms, stddev:    37.33ms, sum:   3.0sec, count: 100
+all queries                                                    :
+min:     6.33ms, med:    17.39ms, mean:    29.85ms, max:  295.07ms, stddev:    37.33ms, sum:   3.0sec, count: 100
+
+After 200 queries with 4 workers:
+Interval query rate: 92.34 queries/sec  Overall query rate: 108.82 queries/sec
+QuestDB 5 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:     4.84ms, med:    18.21ms, mean:    35.38ms, max:  709.76ms, stddev:    66.14ms, sum:   7.1sec, count: 200
+all queries                                                    :
+min:     4.84ms, med:    18.21ms, mean:    35.38ms, max:  709.76ms, stddev:    66.14ms, sum:   7.1sec, count: 200
+
+After 300 queries with 4 workers:
+Interval query rate: 76.66 queries/sec  Overall query rate: 95.47 queries/sec
+QuestDB 5 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:     4.84ms, med:    19.16ms, mean:    36.20ms, max:  975.77ms, stddev:    79.16ms, sum:  10.9sec, count: 300
+all queries                                                    :
+min:     4.84ms, med:    19.16ms, mean:    36.20ms, max:  975.77ms, stddev:    79.16ms, sum:  10.9sec, count: 300
+
+Run complete after 300 queries with 4 workers (Overall query rate 94.50 queries/sec):
+QuestDB 5 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+tee: query_questdb_questdb-single-groupby-5-8-1-queries.out: No space left on device
+min:     4.84ms, med:    19.16ms, mean:    36.20ms, max:  975.77ms, stddev:    79.16ms, sum:  10.9sec, count: 300
+all queries                                                    :
+min:     4.84ms, med:    19.16ms, mean:    36.20ms, max:  975.77ms, stddev:    79.16ms, sum:  10.9sec, count: 300
+wall clock time: 3.207343sec
+
+
+questdb-double-groupby-1-queries
+
+
+After 100 queries with 4 workers:
+Interval query rate: 1.28 queries/sec   Overall query rate: 1.28 queries/sec
+QuestDB mean of 1 metrics, all hosts, random 12h0m0s by 1h:
+min:  1952.83ms, med:  2820.99ms, mean:  3053.21ms, max: 6895.36ms, stddev:   887.65ms, sum: 305.3sec, count: 100
+all queries                                               :
+min:  1952.83ms, med:  2820.99ms, mean:  3053.21ms, max: 6895.36ms, stddev:   887.65ms, sum: 305.3sec, count: 100
+
+After 200 queries with 4 workers:
+Interval query rate: 1.37 queries/sec   Overall query rate: 1.32 queries/sec
+QuestDB mean of 1 metrics, all hosts, random 12h0m0s by 1h:
+min:  1901.95ms, med:  2792.32ms, mean:  2996.19ms, max: 6895.36ms, stddev:   866.40ms, sum: 599.2sec, count: 200
+all queries                                               :
+min:  1901.95ms, med:  2792.32ms, mean:  2996.19ms, max: 6895.36ms, stddev:   866.40ms, sum: 599.2sec, count: 200
+
+After 300 queries with 4 workers:
+Interval query rate: 1.37 queries/sec   Overall query rate: 1.34 queries/sec
+QuestDB mean of 1 metrics, all hosts, random 12h0m0s by 1h:
+min:  1869.06ms, med:  2760.45ms, mean:  2975.11ms, max: 6895.36ms, stddev:   852.48ms, sum: 892.5sec, count: 300
+all queries                                               :
+min:  1869.06ms, med:  2760.45ms, mean:  2975.11ms, max: 6895.36ms, stddev:   852.48ms, sum: 892.5sec, count: 300
+
+Run complete after 300 queries with 4 workers (Overall query rate 1.34 queries/sec):
+QuestDB mean of 1 metrics, all hosts, random 12h0m0s by 1h:
+tee: query_questdb_questdb-double-groupby-1-queries.out: No space left on device
+min:  1869.06ms, med:  2760.45ms, mean:  2975.11ms, max: 6895.36ms, stddev:   852.48ms, sum: 892.5sec, count: 300
+all queries                                               :
+min:  1869.06ms, med:  2760.45ms, mean:  2975.11ms, max: 6895.36ms, stddev:   852.48ms, sum: 892.5sec, count: 300
+wall clock time: 224.550156sec
+
+
+questdb-double-groupby-5-queries
+
+
+After 100 queries with 4 workers:
+Interval query rate: 0.66 queries/sec   Overall query rate: 0.66 queries/sec
+QuestDB mean of 5 metrics, all hosts, random 12h0m0s by 1h:
+min:  4116.86ms, med:  5864.19ms, mean:  5996.79ms, max: 9324.54ms, stddev:  1108.69ms, sum: 599.7sec, count: 100
+all queries                                               :
+min:  4116.86ms, med:  5864.19ms, mean:  5996.79ms, max: 9324.54ms, stddev:  1108.69ms, sum: 599.7sec, count: 100
+
+ After 200 queries with 4 workers:
+Interval query rate: 0.68 queries/sec   Overall query rate: 0.67 queries/sec
+QuestDB mean of 5 metrics, all hosts, random 12h0m0s by 1h:
+min:  3876.99ms, med:  5809.92ms, mean:  5913.28ms, max: 10039.30ms, stddev:  1075.49ms, sum: 1182.7sec, count: 200
+all queries                                               :
+min:  3876.99ms, med:  5809.92ms, mean:  5913.28ms, max: 10039.30ms, stddev:  1075.49ms, sum: 1182.7sec, count: 200
+
+After 300 queries with 4 workers:
+Interval query rate: 0.73 queries/sec   Overall query rate: 0.69 queries/sec
+QuestDB mean of 5 metrics, all hosts, random 12h0m0s by 1h:
+min:  3876.99ms, med:  5647.87ms, mean:  5784.80ms, max: 10039.30ms, stddev:  1017.35ms, sum: 1735.4sec, count: 300
+all queries                                               :
+min:  3876.99ms, med:  5647.87ms, mean:  5784.80ms, max: 10039.30ms, stddev:  1017.35ms, sum: 1735.4sec, count: 300
+
+Run complete after 300 queries with 4 workers (Overall query rate 0.69 queries/sec):
+QuestDB mean of 5 metrics, all hosts, random 12h0m0s by 1h:
+tee: query_questdb_questdb-double-groupby-5-queries.out: No space left on device
+min:  3876.99ms, med:  5647.87ms, mean:  5784.80ms, max: 10039.30ms, stddev:  1017.35ms, sum: 1735.4sec, count: 300
+all queries                                               :
+min:  3876.99ms, med:  5647.87ms, mean:  5784.80ms, max: 10039.30ms, stddev:  1017.35ms, sum: 1735.4sec, count: 300
+wall clock time: 435.954874sec
+
+
+questdb-double-groupby-all-queries
+
+
+After 100 queries with 4 workers:
+Interval query rate: 0.34 queries/sec   Overall query rate: 0.34 queries/sec
+QuestDB mean of 10 metrics, all hosts, random 12h0m0s by 1h:
+min:  8103.42ms, med: 10891.77ms, mean: 11453.01ms, max: 21610.49ms, stddev:  2368.46ms, sum: 1145.3sec, count: 100
+all queries                                                :
+min:  8103.42ms, med: 10891.77ms, mean: 11453.01ms, max: 21610.49ms, stddev:  2368.46ms, sum: 1145.3sec, count: 100
+
+After 200 queries with 4 workers:
+Interval query rate: 0.38 queries/sec   Overall query rate: 0.36 queries/sec
+QuestDB mean of 10 metrics, all hosts, random 12h0m0s by 1h:
+min:  7117.82ms, med: 10564.61ms, mean: 10942.98ms, max: 21610.49ms, stddev:  2130.53ms, sum: 2188.6sec, count: 200
+all queries                                                :
+min:  7117.82ms, med: 10564.61ms, mean: 10942.98ms, max: 21610.49ms, stddev:  2130.53ms, sum: 2188.6sec, count: 200
+
+After 300 queries with 4 workers:
+Interval query rate: 0.38 queries/sec   Overall query rate: 0.37 queries/sec
+QuestDB mean of 10 metrics, all hosts, random 12h0m0s by 1h:
+min:  7117.82ms, med: 10501.63ms, mean: 10826.51ms, max: 21610.49ms, stddev:  1939.25ms, sum: 3248.0sec, count: 300
+all queries                                                :
+min:  7117.82ms, med: 10501.63ms, mean: 10826.51ms, max: 21610.49ms, stddev:  1939.25ms, sum: 3248.0sec, count: 300
+
+Run complete after 300 queries with 4 workers (Overall query rate 0.37 queries/sec):
+QuestDB mean of 10 metrics, all hosts, random 12h0m0s by 1h:
+tee: query_questdb_questdb-double-groupby-all-queries.out: No space left on device
+min:  7117.82ms, med: 10501.63ms, mean: 10826.51ms, max: 21610.49ms, stddev:  1939.25ms, sum: 3248.0sec, count: 300
+all queries                                                :
+min:  7117.82ms, med: 10501.63ms, mean: 10826.51ms, max: 21610.49ms, stddev:  1939.25ms, sum: 3248.0sec, count: 300
+wall clock time: 814.896253sec
+
+
+questdb-high-cpu-all-queries
+
+
+After 100 queries with 4 workers:
+Interval query rate: 0.20 queries/sec   Overall query rate: 0.20 queries/sec
+QuestDB CPU over threshold, all hosts:
+min: 12194.82ms, med: 19445.76ms, mean: 19486.42ms, max: 29415.42ms, stddev:  3643.38ms, sum: 1948.6sec, count: 100
+all queries                          :
+min: 12194.82ms, med: 19445.76ms, mean: 19486.42ms, max: 29415.42ms, stddev:  3643.38ms, sum: 1948.6sec, count: 100
+
+After 200 queries with 4 workers:
+Interval query rate: 0.19 queries/sec   Overall query rate: 0.20 queries/sec
+QuestDB CPU over threshold, all hosts:
+min: 11984.38ms, med: 19851.26ms, mean: 20127.46ms, max: 33145.86ms, stddev:  3967.77ms, sum: 4025.5sec, count: 200
+all queries                          :
+min: 11984.38ms, med: 19851.26ms, mean: 20127.46ms, max: 33145.86ms, stddev:  3967.77ms, sum: 4025.5sec, count: 200
+
+After 300 queries with 4 workers:
+Interval query rate: 0.21 queries/sec   Overall query rate: 0.20 queries/sec
+QuestDB CPU over threshold, all hosts:
+min: 10175.49ms, med: 19595.26ms, mean: 19961.61ms, max: 33145.86ms, stddev:  4097.28ms, sum: 5988.5sec, count: 300
+all queries                          :
+min: 10175.49ms, med: 19595.26ms, mean: 19961.61ms, max: 33145.86ms, stddev:  4097.28ms, sum: 5988.5sec, count: 300
+
+Run complete after 300 queries with 4 workers (Overall query rate 0.20 queries/sec):
+QuestDB CPU over threshold, all hosts:
+tee: query_questdb_questdb-high-cpu-all-queries.out: No space left on device
+min: 10175.49ms, med: 19595.26ms, mean: 19961.61ms, max: 33145.86ms, stddev:  4097.28ms, sum: 5988.5sec, count: 300
+all queries                          :
+min: 10175.49ms, med: 19595.26ms, mean: 19961.61ms, max: 33145.86ms, stddev:  4097.28ms, sum: 5988.5sec, count: 300
+wall clock time: 1502.823737sec
+
+
+questdb-high-cpu-1-queries
+
+
+After 100 queries with 4 workers:
+Interval query rate: 0.97 queries/sec   Overall query rate: 0.97 queries/sec
+QuestDB CPU over threshold, 1 host(s):
+min:    69.51ms, med:  2348.80ms, mean:  4088.12ms, max: 23029.76ms, stddev:  4459.66ms, sum: 408.8sec, count: 100
+all queries                          :
+min:    69.51ms, med:  2348.80ms, mean:  4088.12ms, max: 23029.76ms, stddev:  4459.66ms, sum: 408.8sec, count: 100
+
+After 200 queries with 4 workers:
+Interval query rate: 1.19 queries/sec   Overall query rate: 1.07 queries/sec
+QuestDB CPU over threshold, 1 host(s):
+min:    69.51ms, med:  2007.49ms, mean:  3688.71ms, max: 23029.76ms, stddev:  4217.29ms, sum: 737.7sec, count: 200
+all queries                          :
+min:    69.51ms, med:  2007.49ms, mean:  3688.71ms, max: 23029.76ms, stddev:  4217.29ms, sum: 737.7sec, count: 200
+
+After 300 queries with 4 workers:
+Interval query rate: 1.03 queries/sec   Overall query rate: 1.06 queries/sec
+QuestDB CPU over threshold, 1 host(s):
+min:    69.51ms, med:  2061.70ms, mean:  3725.12ms, max: 23029.76ms, stddev:  4173.40ms, sum: 1117.5sec, count: 300
+all queries                          :
+min:    69.51ms, med:  2061.70ms, mean:  3725.12ms, max: 23029.76ms, stddev:  4173.40ms, sum: 1117.5sec, count: 300
+
+Run complete after 300 queries with 4 workers (Overall query rate 1.06 queries/sec):
+QuestDB CPU over threshold, 1 host(s):
+tee: query_questdb_questdb-high-cpu-1-queries.out: No space left on device
+min:    69.51ms, med:  2061.70ms, mean:  3725.12ms, max: 23029.76ms, stddev:  4173.40ms, sum: 1117.5sec, count: 300
+all queries                          :
+min:    69.51ms, med:  2061.70ms, mean:  3725.12ms, max: 23029.76ms, stddev:  4173.40ms, sum: 1117.5sec, count: 300
+wall clock time: 284.044306sec
+
+
+questdb-lastpoint-queries
+
+
+After 100 queries with 4 workers:
+Interval query rate: 84.02 queries/sec  Overall query rate: 84.02 queries/sec
+QuestDB last row per host:
+min:    12.69ms, med:    17.64ms, mean:    47.31ms, max:  759.65ms, stddev:   142.09ms, sum:   4.7sec, count: 100
+all queries              :
+min:    12.69ms, med:    17.64ms, mean:    47.31ms, max:  759.65ms, stddev:   142.09ms, sum:   4.7sec, count: 100
+
+After 200 queries with 4 workers:
+Interval query rate: 232.01 queries/sec Overall query rate: 123.36 queries/sec
+QuestDB last row per host:
+min:    11.35ms, med:    16.71ms, mean:    32.28ms, max:  759.65ms, stddev:   101.64ms, sum:   6.5sec, count: 200
+all queries              :
+min:    11.35ms, med:    16.71ms, mean:    32.28ms, max:  759.65ms, stddev:   101.64ms, sum:   6.5sec, count: 200
+
+After 300 queries with 4 workers:
+Interval query rate: 229.94 queries/sec Overall query rate: 145.91 queries/sec
+QuestDB last row per host:
+min:    11.35ms, med:    16.74ms, mean:    27.25ms, max:  759.65ms, stddev:    83.32ms, sum:   8.2sec, count: 300
+all queries              :
+min:    11.35ms, med:    16.74ms, mean:    27.25ms, max:  759.65ms, stddev:    83.32ms, sum:   8.2sec, count: 300
+
+Run complete after 300 queries with 4 workers (Overall query rate 144.00 queries/sec):
+tee: query_questdb_questdb-lastpoint-queries.out: No space left on device
+QuestDB last row per host:
+min:    11.35ms, med:    16.74ms, mean:    27.25ms, max:  759.65ms, stddev:    83.32ms, sum:   8.2sec, count: 300
+all queries              :
+min:    11.35ms, med:    16.74ms, mean:    27.25ms, max:  759.65ms, stddev:    83.32ms, sum:   8.2sec, count: 300
+wall clock time: 2.110428sec
+
+
+questdb-groupby-orderby-limit-queries
+
+
+After 100 queries with 4 workers:
+Interval query rate: 268.17 queries/sec Overall query rate: 268.17 queries/sec
+QuestDB max cpu over last 5 min-intervals (random end):
+min:     8.91ms, med:    13.26ms, mean:    14.74ms, max:   78.46ms, stddev:     8.03ms, sum:   1.5sec, count: 100
+all queries                                           :
+min:     8.91ms, med:    13.26ms, mean:    14.74ms, max:   78.46ms, stddev:     8.03ms, sum:   1.5sec, count: 100
+
+After 200 queries with 4 workers:
+Interval query rate: 282.05 queries/sec Overall query rate: 274.94 queries/sec
+QuestDB max cpu over last 5 min-intervals (random end):
+min:     8.48ms, med:    13.32ms, mean:    14.41ms, max:   78.46ms, stddev:     6.30ms, sum:   2.9sec, count: 200
+all queries                                           :
+min:     8.48ms, med:    13.32ms, mean:    14.41ms, max:   78.46ms, stddev:     6.30ms, sum:   2.9sec, count: 200
+
+After 300 queries with 4 workers:
+Interval query rate: 246.68 queries/sec Overall query rate: 264.82 queries/sec
+QuestDB max cpu over last 5 min-intervals (random end):
+min:     8.43ms, med:    13.46ms, mean:    15.03ms, max:  138.15ms, stddev:    11.56ms, sum:   4.5sec, count: 300
+all queries                                           :
+min:     8.43ms, med:    13.46ms, mean:    15.03ms, max:  138.15ms, stddev:    11.56ms, sum:   4.5sec, count: 300
+
+Run complete after 300 queries with 4 workers (Overall query rate 259.78 queries/sec):
+QuestDB max cpu over last 5 min-intervals (random end):
+tee: query_questdb_questdb-groupby-orderby-limit-queries.out: No space left on device
+min:     8.43ms, med:    13.46ms, mean:    15.03ms, max:  138.15ms, stddev:    11.56ms, sum:   4.5sec, count: 300
+all queries                                           :
+min:     8.43ms, med:    13.46ms, mean:    15.03ms, max:  138.15ms, stddev:    11.56ms, sum:   4.5sec, count: 300
+wall clock time: 1.174388sec

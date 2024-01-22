@@ -1,0 +1,1 @@
+cat ../../../../tmp/influx-data2.gz | gunzip | ./tsbs_load_influx

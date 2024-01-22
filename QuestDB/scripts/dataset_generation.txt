@@ -1,0 +1,1 @@
+./tsbs_generate_data --use-case="cpu-only" --seed=1204 --scale=5000 --timestamp-start="2023-01-01T00:00:00Z" --timestamp-end="2023-01-04T00:00:00Z" --log-interval="10s" --format="questdb" | gzip > /tmp/questdb-data2.gz

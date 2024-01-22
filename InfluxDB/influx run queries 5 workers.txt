@@ -1,0 +1,343 @@
+influx-single-groupby-1-1-1-queries
+
+
+After 100 queries with 5 workers:
+Interval query rate: 777.23 queries/sec Overall query rate: 777.23 queries/sec
+Influx 1 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     1.47ms, med:     4.32ms, mean:     6.03ms, max:   28.63ms, stddev:     4.66ms, sum:   0.6sec, count: 100
+all queries                                                   :
+min:     1.47ms, med:     4.32ms, mean:     6.03ms, max:   28.63ms, stddev:     4.66ms, sum:   0.6sec, count: 100
+
+After 200 queries with 5 workers:
+Interval query rate: 1276.91 queries/sec        Overall query rate: 966.30 queries/sec
+Influx 1 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     1.25ms, med:     3.59ms, mean:     5.07ms, max:   28.63ms, stddev:     4.31ms, sum:   1.0sec, count: 200
+all queries                                                   :
+min:     1.25ms, med:     3.59ms, mean:     5.07ms, max:   28.63ms, stddev:     4.31ms, sum:   1.0sec, count: 200
+
+After 300 queries with 5 workers:
+Interval query rate: 1700.22 queries/sec        Overall query rate: 1128.70 queries/sec
+Influx 1 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     1.25ms, med:     3.11ms, mean:     4.35ms, max:   28.63ms, stddev:     3.78ms, sum:   1.3sec, count: 300
+all queries                                                   :
+min:     1.25ms, med:     3.11ms, mean:     4.35ms, max:   28.63ms, stddev:     3.78ms, sum:   1.3sec, count: 300
+
+Run complete after 300 queries with 5 workers (Overall query rate 1096.23 queries/sec):
+Influx 1 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     1.25ms, med:     3.11ms, mean:     4.35ms, max:   28.63ms, stddev:     3.78ms, sum:   1.3sec, count: 300
+all queries                                                   :
+min:     1.25ms, med:     3.11ms, mean:     4.35ms, max:   28.63ms, stddev:     3.78ms, sum:   1.3sec, count: 300
+wall clock time: 0.289244sec
+
+
+influx-single-groupby-1-1-12-queries
+
+
+After 100 queries with 5 workers:
+Interval query rate: 265.54 queries/sec Overall query rate: 265.54 queries/sec
+Influx 1 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:     7.05ms, med:    13.84ms, mean:    18.53ms, max:   81.12ms, stddev:    13.36ms, sum:   1.9sec, count: 100
+all queries                                                    :
+min:     7.05ms, med:    13.84ms, mean:    18.53ms, max:   81.12ms, stddev:    13.36ms, sum:   1.9sec, count: 100
+
+After 200 queries with 5 workers:
+Interval query rate: 323.37 queries/sec Overall query rate: 291.61 queries/sec
+Influx 1 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:     6.86ms, med:    12.43ms, mean:    16.70ms, max:   81.12ms, stddev:    11.27ms, sum:   3.3sec, count: 200
+all queries                                                    :
+min:     6.86ms, med:    12.43ms, mean:    16.70ms, max:   81.12ms, stddev:    11.27ms, sum:   3.3sec, count: 200
+
+After 300 queries with 5 workers:
+Interval query rate: 331.82 queries/sec Overall query rate: 303.89 queries/sec
+Influx 1 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:     6.86ms, med:    12.40ms, mean:    16.36ms, max:   81.12ms, stddev:    11.23ms, sum:   4.9sec, count: 300
+all queries                                                    :
+min:     6.86ms, med:    12.40ms, mean:    16.36ms, max:   81.12ms, stddev:    11.23ms, sum:   4.9sec, count: 300
+
+Run complete after 300 queries with 5 workers (Overall query rate 299.77 queries/sec):
+Influx 1 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:     6.86ms, med:    12.40ms, mean:    16.36ms, max:   81.12ms, stddev:    11.23ms, sum:   4.9sec, count: 300
+all queries                                                    :
+min:     6.86ms, med:    12.40ms, mean:    16.36ms, max:   81.12ms, stddev:    11.23ms, sum:   4.9sec, count: 300
+wall clock time: 1.016435sec
+
+
+influx-single-groupby-1-8-1-queries
+
+
+After 100 queries with 5 workers:
+Interval query rate: 547.22 queries/sec Overall query rate: 547.22 queries/sec
+Influx 1 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:     3.63ms, med:     7.99ms, mean:     8.97ms, max:   24.04ms, stddev:     4.15ms, sum:   0.9sec, count: 100
+all queries                                                   :
+min:     3.63ms, med:     7.99ms, mean:     8.97ms, max:   24.04ms, stddev:     4.15ms, sum:   0.9sec, count: 100
+
+After 200 queries with 5 workers:
+Interval query rate: 689.17 queries/sec Overall query rate: 610.05 queries/sec
+Influx 1 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:     3.48ms, med:     7.01ms, mean:     8.05ms, max:   24.39ms, stddev:     4.04ms, sum:   1.6sec, count: 200
+all queries                                                   :
+min:     3.48ms, med:     7.01ms, mean:     8.05ms, max:   24.39ms, stddev:     4.04ms, sum:   1.6sec, count: 200
+
+After 300 queries with 5 workers:
+Interval query rate: 583.26 queries/sec Overall query rate: 600.85 queries/sec
+Influx 1 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:     3.33ms, med:     6.69ms, mean:     8.27ms, max:   29.90ms, stddev:     4.76ms, sum:   2.5sec, count: 300
+all queries                                                   :
+min:     3.33ms, med:     6.69ms, mean:     8.27ms, max:   29.90ms, stddev:     4.76ms, sum:   2.5sec, count: 300
+
+Run complete after 300 queries with 5 workers (Overall query rate 591.81 queries/sec):
+Influx 1 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:     3.33ms, med:     6.69ms, mean:     8.27ms, max:   29.90ms, stddev:     4.76ms, sum:   2.5sec, count: 300
+all queries                                                   :
+min:     3.33ms, med:     6.69ms, mean:     8.27ms, max:   29.90ms, stddev:     4.76ms, sum:   2.5sec, count: 300
+wall clock time: 0.516061sec
+
+
+influx-single-groupby-5-1-1-queries
+
+
+After 100 queries with 5 workers:
+Interval query rate: 562.92 queries/sec Overall query rate: 562.92 queries/sec
+Influx 5 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     3.70ms, med:     8.56ms, mean:     8.67ms, max:   19.05ms, stddev:     3.40ms, sum:   0.9sec, count: 100
+all queries                                                   :
+min:     3.70ms, med:     8.56ms, mean:     8.67ms, max:   19.05ms, stddev:     3.40ms, sum:   0.9sec, count: 100
+
+After 200 queries with 5 workers:
+Interval query rate: 745.99 queries/sec Overall query rate: 641.65 queries/sec
+Influx 5 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     3.19ms, med:     6.40ms, mean:     7.62ms, max:   19.05ms, stddev:     3.58ms, sum:   1.5sec, count: 200
+all queries                                                   :
+min:     3.19ms, med:     6.40ms, mean:     7.62ms, max:   19.05ms, stddev:     3.58ms, sum:   1.5sec, count: 200
+
+After 300 queries with 5 workers:
+Interval query rate: 713.75 queries/sec Overall query rate: 664.01 queries/sec
+Influx 5 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     3.19ms, med:     6.29ms, mean:     7.50ms, max:   23.83ms, stddev:     3.65ms, sum:   2.2sec, count: 300
+all queries                                                   :
+min:     3.19ms, med:     6.29ms, mean:     7.50ms, max:   23.83ms, stddev:     3.65ms, sum:   2.2sec, count: 300
+
+Run complete after 300 queries with 5 workers (Overall query rate 654.70 queries/sec):
+Influx 5 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     3.19ms, med:     6.29ms, mean:     7.50ms, max:   23.83ms, stddev:     3.65ms, sum:   2.2sec, count: 300
+all queries                                                   :
+min:     3.19ms, med:     6.29ms, mean:     7.50ms, max:   23.83ms, stddev:     3.65ms, sum:   2.2sec, count: 300
+wall clock time: 0.467047sec
+
+
+influx-single-groupby-5-1-12-queries
+
+
+After 100 queries with 5 workers:
+Interval query rate: 84.01 queries/sec  Overall query rate: 84.01 queries/sec
+Influx 5 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:    25.61ms, med:    56.86ms, mean:    58.95ms, max:  133.53ms, stddev:    22.34ms, sum:   5.9sec, count: 100
+all queries                                                    :
+min:    25.61ms, med:    56.86ms, mean:    58.95ms, max:  133.53ms, stddev:    22.34ms, sum:   5.9sec, count: 100
+
+After 200 queries with 5 workers:
+Interval query rate: 82.39 queries/sec  Overall query rate: 83.19 queries/sec
+Influx 5 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:    25.61ms, med:    56.62ms, mean:    58.72ms, max:  133.53ms, stddev:    22.22ms, sum:  11.7sec, count: 200
+all queries                                                    :
+min:    25.61ms, med:    56.62ms, mean:    58.72ms, max:  133.53ms, stddev:    22.22ms, sum:  11.7sec, count: 200
+
+After 300 queries with 5 workers:
+Interval query rate: 84.53 queries/sec  Overall query rate: 83.63 queries/sec
+Influx 5 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:    25.61ms, med:    56.86ms, mean:    59.50ms, max:  141.82ms, stddev:    23.28ms, sum:  17.8sec, count: 300
+all queries                                                    :
+min:    25.61ms, med:    56.86ms, mean:    59.50ms, max:  141.82ms, stddev:    23.28ms, sum:  17.8sec, count: 300
+
+Run complete after 300 queries with 5 workers (Overall query rate 83.16 queries/sec):
+Influx 5 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:    25.61ms, med:    56.86ms, mean:    59.50ms, max:  141.82ms, stddev:    23.28ms, sum:  17.8sec, count: 300
+all queries                                                    :
+min:    25.61ms, med:    56.86ms, mean:    59.50ms, max:  141.82ms, stddev:    23.28ms, sum:  17.8sec, count: 300
+wall clock time: 3.629459sec
+
+
+influx-single-groupby-5-8-1-queries
+
+
+After 100 queries with 5 workers:
+Interval query rate: 185.22 queries/sec Overall query rate: 185.22 queries/sec
+Influx 5 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:    10.55ms, med:    22.92ms, mean:    26.61ms, max:   55.88ms, stddev:    10.98ms, sum:   2.7sec, count: 100
+all queries                                                   :
+min:    10.55ms, med:    22.92ms, mean:    26.61ms, max:   55.88ms, stddev:    10.98ms, sum:   2.7sec, count: 100
+
+After 200 queries with 5 workers:
+Interval query rate: 187.24 queries/sec Overall query rate: 186.23 queries/sec
+Influx 5 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:     9.05ms, med:    22.92ms, mean:    26.35ms, max:   70.86ms, stddev:    11.88ms, sum:   5.3sec, count: 200
+all queries                                                   :
+min:     9.05ms, med:    22.92ms, mean:    26.35ms, max:   70.86ms, stddev:    11.88ms, sum:   5.3sec, count: 200
+
+After 300 queries with 5 workers:
+Interval query rate: 192.33 queries/sec Overall query rate: 188.22 queries/sec
+Influx 5 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:     9.05ms, med:    22.98ms, mean:    26.36ms, max:   84.44ms, stddev:    12.37ms, sum:   7.9sec, count: 300
+all queries                                                   :
+min:     9.05ms, med:    22.98ms, mean:    26.36ms, max:   84.44ms, stddev:    12.37ms, sum:   7.9sec, count: 300
+
+Run complete after 300 queries with 5 workers (Overall query rate 186.42 queries/sec):
+Influx 5 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:     9.05ms, med:    22.98ms, mean:    26.36ms, max:   84.44ms, stddev:    12.37ms, sum:   7.9sec, count: 300
+all queries                                                   :
+min:     9.05ms, med:    22.98ms, mean:    26.36ms, max:   84.44ms, stddev:    12.37ms, sum:   7.9sec, count: 300
+wall clock time: 1.624954sec
+
+
+influx-double-groupby-1-queries
+
+
+After 100 queries with 5 workers:
+Interval query rate: 0.92 queries/sec   Overall query rate: 0.92 queries/sec
+Influx mean of 1 metrics, all hosts, random 12h0m0s by 1h:
+min:  4689.41ms, med:  5376.51ms, mean:  5396.19ms, max: 6447.10ms, stddev:   345.36ms, sum: 539.6sec, count: 100
+all queries                                              :
+min:  4689.41ms, med:  5376.51ms, mean:  5396.19ms, max: 6447.10ms, stddev:   345.36ms, sum: 539.6sec, count: 100
+
+After 200 queries with 5 workers:
+Interval query rate: 0.93 queries/sec   Overall query rate: 0.92 queries/sec
+Influx mean of 1 metrics, all hosts, random 12h0m0s by 1h:
+min:  4689.41ms, med:  5376.51ms, mean:  5371.19ms, max: 6447.10ms, stddev:   314.65ms, sum: 1074.2sec, count: 200
+all queries                                              :
+min:  4689.41ms, med:  5376.51ms, mean:  5371.19ms, max: 6447.10ms, stddev:   314.65ms, sum: 1074.2sec, count: 200
+
+After 300 queries with 5 workers:
+Interval query rate: 0.96 queries/sec   Overall query rate: 0.93 queries/sec
+Influx mean of 1 metrics, all hosts, random 12h0m0s by 1h:
+min:  4004.10ms, med:  5302.27ms, mean:  5321.03ms, max: 6447.10ms, stddev:   325.78ms, sum: 1596.3sec, count: 300
+all queries                                              :
+min:  4004.10ms, med:  5302.27ms, mean:  5321.03ms, max: 6447.10ms, stddev:   325.78ms, sum: 1596.3sec, count: 300
+
+Run complete after 300 queries with 5 workers (Overall query rate 0.93 queries/sec):
+Influx mean of 1 metrics, all hosts, random 12h0m0s by 1h:
+min:  4004.10ms, med:  5302.27ms, mean:  5321.03ms, max: 6447.10ms, stddev:   325.78ms, sum: 1596.3sec, count: 300
+all queries                                              :
+min:  4004.10ms, med:  5302.27ms, mean:  5321.03ms, max: 6447.10ms, stddev:   325.78ms, sum: 1596.3sec, count: 300
+wall clock time: 321.442599sec
+
+
+influx-double-groupby-5-queries
+
+FATAL ERROR OUT OF MEMORY ????????
+
+
+influx-double-groupby-5-queries
+
+
+
+After 100 queries with 5 workers:
+Interval query rate: 0.18 queries/sec   Overall query rate: 0.18 queries/sec
+Influx mean of 5 metrics, all hosts, random 12h0m0s by 1h:
+min: 22567.94ms, med: 25559.04ms, mean: 26815.87ms, max: 45047.81ms, stddev:  4107.96ms, sum: 2681.6sec, count: 100
+all queries                                              :
+min: 22567.94ms, med: 25559.04ms, mean: 26815.87ms, max: 45047.81ms, stddev:  4107.96ms, sum: 2681.6sec, count: 100
+
+
+After 200 queries with 5 workers:
+Interval query rate: 0.19 queries/sec   Overall query rate: 0.19 queries/sec
+Influx mean of 5 metrics, all hosts, random 12h0m0s by 1h:
+min: 22567.94ms, med: 25636.86ms, mean: 26166.70ms, max: 45047.81ms, stddev:  3077.66ms, sum: 5233.3sec, count: 200
+all queries                                              :
+min: 22567.94ms, med: 25636.86ms, mean: 26166.70ms, max: 45047.81ms, stddev:  3077.66ms, sum: 5233.3sec, count: 200
+
+After 300 queries with 5 workers:
+Interval query rate: 0.20 queries/sec   Overall query rate: 0.19 queries/sec
+Influx mean of 5 metrics, all hosts, random 12h0m0s by 1h:
+min: 17851.39ms, med: 25411.58ms, mean: 25760.31ms, max: 45047.81ms, stddev:  2700.64ms, sum: 7728.1sec, count: 300
+all queries                                              :
+min: 17851.39ms, med: 25411.58ms, mean: 25760.31ms, max: 45047.81ms, stddev:  2700.64ms, sum: 7728.1sec, count: 300
+
+Run complete after 300 queries with 5 workers (Overall query rate 0.19 queries/sec):
+Influx mean of 5 metrics, all hosts, random 12h0m0s by 1h:
+min: 17851.39ms, med: 25411.58ms, mean: 25760.31ms, max: 45047.81ms, stddev:  2700.64ms, sum: 7728.1sec, count: 300
+all queries                                              :
+min: 17851.39ms, med: 25411.58ms, mean: 25760.31ms, max: 45047.81ms, stddev:  2700.64ms, sum: 7728.1sec, count: 300
+wall clock time: 1555.834319sec
+
+
+influx-double-groupby-all-queries
+
+FATAL ERROR OUT OF MEMORY
+
+
+influx-high-cpu-all-queries
+
+FATAL ERROR OUT OF MEMORY
+
+
+influx-high-cpu-1-queries
+
+
+After 100 queries with 5 workers:
+Interval query rate: 215.45 queries/sec Overall query rate: 215.45 queries/sec
+Influx CPU over threshold, 1 host(s):
+min:     5.92ms, med:    18.68ms, mean:    22.83ms, max:   73.42ms, stddev:    15.83ms, sum:   2.3sec, count: 100
+all queries                         :
+min:     5.92ms, med:    18.68ms, mean:    22.83ms, max:   73.42ms, stddev:    15.83ms, sum:   2.3sec, count: 100
+
+After 200 queries with 5 workers:
+Interval query rate: 267.82 queries/sec Overall query rate: 238.80 queries/sec
+Influx CPU over threshold, 1 host(s):
+min:     5.92ms, med:    15.22ms, mean:    20.61ms, max:   74.85ms, stddev:    14.41ms, sum:   4.1sec, count: 200
+all queries                         :
+min:     5.92ms, med:    15.22ms, mean:    20.61ms, max:   74.85ms, stddev:    14.41ms, sum:   4.1sec, count: 200
+
+After 300 queries with 5 workers:
+Interval query rate: 258.04 queries/sec Overall query rate: 244.88 queries/sec
+Influx CPU over threshold, 1 host(s):
+min:     5.92ms, med:    14.96ms, mean:    20.12ms, max:   74.85ms, stddev:    13.81ms, sum:   6.0sec, count: 300
+all queries                         :
+min:     5.92ms, med:    14.96ms, mean:    20.12ms, max:   74.85ms, stddev:    13.81ms, sum:   6.0sec, count: 300
+
+Run complete after 300 queries with 5 workers (Overall query rate 242.27 queries/sec):
+Influx CPU over threshold, 1 host(s):
+min:     5.92ms, med:    14.96ms, mean:    20.12ms, max:   74.85ms, stddev:    13.81ms, sum:   6.0sec, count: 300
+all queries                         :
+min:     5.92ms, med:    14.96ms, mean:    20.12ms, max:   74.85ms, stddev:    13.81ms, sum:   6.0sec, count: 300
+wall clock time: 1.254077sec
+
+
+influx-lastpoint-queries
+
+FATAL ERROR OUT OF MEMORY
+
+
+influx-groupby-orderby-limit-queries
+
+
+
+After 100 queries with 5 workers:
+Interval query rate: 0.05 queries/sec   Overall query rate: 0.05 queries/sec
+Influx max cpu over last 5 min-intervals (random end):
+min:  5421.82ms, med: 110845.95ms, mean: 103975.18ms, max: 191930.37ms, stddev: 54373.64ms, sum: 10397.5sec, count: 100
+all queries                                          :
+min:  5421.82ms, med: 110845.95ms, mean: 103975.18ms, max: 191930.37ms, stddev: 54373.64ms, sum: 10397.5sec, count: 100
+
+
+After 200 queries with 5 workers:
+Interval query rate: 0.06 queries/sec   Overall query rate: 0.05 queries/sec
+Influx max cpu over last 5 min-intervals (random end):
+min:  3756.42ms, med: 95862.78ms, mean: 97067.52ms, max: 191930.37ms, stddev: 54670.08ms, sum: 19413.5sec, count: 200
+all queries                                          :
+min:  3756.42ms, med: 95862.78ms, mean: 97067.52ms, max: 191930.37ms, stddev: 54670.08ms, sum: 19413.5sec, count: 200
+
+
+After 300 queries with 5 workers:
+Interval query rate: 0.05 queries/sec   Overall query rate: 0.05 queries/sec
+Influx max cpu over last 5 min-intervals (random end):
+min:  2799.10ms, med: 95981.57ms, mean: 97393.74ms, max: 191930.37ms, stddev: 55542.53ms, sum: 29218.1sec, count: 300
+all queries                                          :
+min:  2799.10ms, med: 95981.57ms, mean: 97393.74ms, max: 191930.37ms, stddev: 55542.53ms, sum: 29218.1sec, count: 300
+
+Run complete after 300 queries with 5 workers (Overall query rate 0.05 queries/sec):
+Influx max cpu over last 5 min-intervals (random end):
+min:  2799.10ms, med: 95981.57ms, mean: 97393.74ms, max: 191930.37ms, stddev: 55542.53ms, sum: 29218.1sec, count: 300
+all queries                                          :
+min:  2799.10ms, med: 95981.57ms, mean: 97393.74ms, max: 191930.37ms, stddev: 55542.53ms, sum: 29218.1sec, count: 300
+wall clock time: 5900.848516sec

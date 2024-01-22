@@ -1,0 +1,427 @@
+questdb-single-groupby-1-1-1-queries
+
+
+Added index to hostname column of cpu table
+After 100 queries with 2 workers:
+Interval query rate: 2.95 queries/sec   Overall query rate: 2.95 queries/sec
+QuestDB 1 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     1.91ms, med:   524.00ms, mean:   672.62ms, max: 2034.88ms, stddev:   511.93ms, sum:  67.3sec, count: 100
+all queries                                                    :
+min:     1.91ms, med:   524.00ms, mean:   672.62ms, max: 2034.88ms, stddev:   511.93ms, sum:  67.3sec, count: 100
+
+After 200 queries with 2 workers:
+Interval query rate: 6.16 queries/sec   Overall query rate: 3.99 queries/sec
+QuestDB 1 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     1.75ms, med:   356.19ms, mean:   500.75ms, max: 2034.88ms, stddev:   487.87ms, sum: 100.1sec, count: 200
+all queries                                                    :
+min:     1.75ms, med:   356.19ms, mean:   500.75ms, max: 2034.88ms, stddev:   487.87ms, sum: 100.1sec, count: 200
+
+After 300 queries with 2 workers:
+Interval query rate: 13.85 queries/sec  Overall query rate: 5.23 queries/sec
+QuestDB 1 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     1.64ms, med:   192.06ms, mean:   382.00ms, max: 2034.88ms, stddev:   456.87ms, sum: 114.6sec, count: 300
+all queries                                                    :
+min:     1.64ms, med:   192.06ms, mean:   382.00ms, max: 2034.88ms, stddev:   456.87ms, sum: 114.6sec, count: 300
+
+Run complete after 300 queries with 2 workers (Overall query rate 5.23 queries/sec):
+QuestDB 1 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     1.64ms, med:   192.06ms, mean:   382.00ms, max: 2034.88ms, stddev:   456.87ms, sum: 114.6sec, count: 300
+all queries                                                    :
+min:     1.64ms, med:   192.06ms, mean:   382.00ms, max: 2034.88ms, stddev:   456.87ms, sum: 114.6sec, count: 300
+wall clock time: 57.449252sec
+
+
+questdb-single-groupby-1-1-12-queries
+
+
+Added index to hostname column of cpu table
+After 100 queries with 2 workers:
+Interval query rate: 12.60 queries/sec  Overall query rate: 12.60 queries/sec
+QuestDB 1 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:     5.00ms, med:    54.36ms, mean:   158.66ms, max: 1065.73ms, stddev:   228.25ms, sum:  15.9sec, count: 100
+all queries                                                     :
+min:     5.00ms, med:    54.36ms, mean:   158.66ms, max: 1065.73ms, stddev:   228.25ms, sum:  15.9sec, count: 100
+
+After 200 queries with 2 workers:
+Interval query rate: 35.40 queries/sec  Overall query rate: 18.58 queries/sec
+QuestDB 1 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:     4.35ms, med:    27.73ms, mean:   107.29ms, max: 1065.73ms, stddev:   179.27ms, sum:  21.5sec, count: 200
+all queries                                                     :
+min:     4.35ms, med:    27.73ms, mean:   107.29ms, max: 1065.73ms, stddev:   179.27ms, sum:  21.5sec, count: 200
+
+After 300 queries with 2 workers:
+Interval query rate: 28.67 queries/sec  Overall query rate: 21.05 queries/sec
+QuestDB 1 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:     3.52ms, med:    18.55ms, mean:    94.97ms, max: 1065.73ms, stddev:   169.09ms, sum:  28.5sec, count: 300
+all queries                                                     :
+min:     3.52ms, med:    18.55ms, mean:    94.97ms, max: 1065.73ms, stddev:   169.09ms, sum:  28.5sec, count: 300
+
+Run complete after 300 queries with 2 workers (Overall query rate 21.00 queries/sec):
+QuestDB 1 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:     3.52ms, med:    18.55ms, mean:    94.97ms, max: 1065.73ms, stddev:   169.09ms, sum:  28.5sec, count: 300
+all queries                                                     :
+min:     3.52ms, med:    18.55ms, mean:    94.97ms, max: 1065.73ms, stddev:   169.09ms, sum:  28.5sec, count: 300
+wall clock time: 14.316478sec
+
+
+questdb-single-groupby-1-8-1-queries
+
+
+Added index to hostname column of cpu table
+After 100 queries with 2 workers:
+Interval query rate: 12.19 queries/sec  Overall query rate: 12.19 queries/sec
+QuestDB 1 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:     3.19ms, med:    23.28ms, mean:   157.88ms, max: 2076.09ms, stddev:   307.47ms, sum:  15.8sec, count: 100
+all queries                                                    :
+min:     3.19ms, med:    23.28ms, mean:   157.88ms, max: 2076.09ms, stddev:   307.47ms, sum:  15.8sec, count: 100
+
+After 200 queries with 2 workers:
+Interval query rate: 23.59 queries/sec  Overall query rate: 16.08 queries/sec
+QuestDB 1 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:     3.19ms, med:    22.11ms, mean:   123.28ms, max: 2076.09ms, stddev:   246.15ms, sum:  24.7sec, count: 200
+all queries                                                    :
+min:     3.19ms, med:    22.11ms, mean:   123.28ms, max: 2076.09ms, stddev:   246.15ms, sum:  24.7sec, count: 200
+
+After 300 queries with 2 workers:
+Interval query rate: 33.85 queries/sec  Overall query rate: 19.49 queries/sec
+QuestDB 1 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:     3.00ms, med:     8.76ms, mean:   102.26ms, max: 2076.09ms, stddev:   220.44ms, sum:  30.7sec, count: 300
+all queries                                                    :
+min:     3.00ms, med:     8.76ms, mean:   102.26ms, max: 2076.09ms, stddev:   220.44ms, sum:  30.7sec, count: 300
+
+Run complete after 300 queries with 2 workers (Overall query rate 19.44 queries/sec):
+QuestDB 1 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:     3.00ms, med:     8.76ms, mean:   102.26ms, max: 2076.09ms, stddev:   220.44ms, sum:  30.7sec, count: 300
+all queries                                                    :
+min:     3.00ms, med:     8.76ms, mean:   102.26ms, max: 2076.09ms, stddev:   220.44ms, sum:  30.7sec, count: 300
+wall clock time: 15.464376sec
+
+
+questdb-single-groupby-5-1-1-queries
+
+
+Added index to hostname column of cpu table
+After 100 queries with 2 workers:
+Interval query rate: 1.93 queries/sec   Overall query rate: 1.93 queries/sec
+QuestDB 5 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     3.50ms, med:   758.30ms, mean:  1026.40ms, max: 4006.66ms, stddev:  1001.92ms, sum: 102.6sec, count: 100
+all queries                                                    :
+min:     3.50ms, med:   758.30ms, mean:  1026.40ms, max: 4006.66ms, stddev:  1001.92ms, sum: 102.6sec, count: 100
+
+After 200 queries with 2 workers:
+Interval query rate: 3.24 queries/sec   Overall query rate: 2.42 queries/sec
+QuestDB 5 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     3.05ms, med:   458.93ms, mean:   824.45ms, max: 7041.02ms, stddev:  1016.95ms, sum: 164.9sec, count: 200
+all queries                                                    :
+min:     3.05ms, med:   458.93ms, mean:   824.45ms, max: 7041.02ms, stddev:  1016.95ms, sum: 164.9sec, count: 200
+
+After 300 queries with 2 workers:
+Interval query rate: 9.04 queries/sec   Overall query rate: 3.20 queries/sec
+QuestDB 5 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     3.05ms, med:   299.34ms, mean:   624.02ms, max: 7041.02ms, stddev:   897.55ms, sum: 187.2sec, count: 300
+all queries                                                    :
+min:     3.05ms, med:   299.34ms, mean:   624.02ms, max: 7041.02ms, stddev:   897.55ms, sum: 187.2sec, count: 300
+
+Run complete after 300 queries with 2 workers (Overall query rate 3.20 queries/sec):
+QuestDB 5 cpu metric(s), random    1 hosts, random 1h0m0s by 1m:
+min:     3.05ms, med:   299.34ms, mean:   624.02ms, max: 7041.02ms, stddev:   897.55ms, sum: 187.2sec, count: 300
+all queries                                                    :
+min:     3.05ms, med:   299.34ms, mean:   624.02ms, max: 7041.02ms, stddev:   897.55ms, sum: 187.2sec, count: 300
+wall clock time: 93.731009sec
+
+
+questdb-single-groupby-5-1-12-queries
+
+
+Added index to hostname column of cpu table
+After 100 queries with 2 workers:
+Interval query rate: 1.42 queries/sec   Overall query rate: 1.42 queries/sec
+QuestDB 5 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:    37.16ms, med:   833.09ms, mean:  1407.77ms, max: 6353.66ms, stddev:  1289.39ms, sum: 140.8sec, count: 100
+all queries                                                     :
+min:    37.16ms, med:   833.09ms, mean:  1407.77ms, max: 6353.66ms, stddev:  1289.39ms, sum: 140.8sec, count: 100
+
+After 200 queries with 2 workers:
+Interval query rate: 1.56 queries/sec   Overall query rate: 1.48 queries/sec
+QuestDB 5 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:    25.10ms, med:   929.12ms, mean:  1346.36ms, max: 6353.66ms, stddev:  1194.88ms, sum: 269.3sec, count: 200
+all queries                                                     :
+min:    25.10ms, med:   929.12ms, mean:  1346.36ms, max: 6353.66ms, stddev:  1194.88ms, sum: 269.3sec, count: 200
+
+After 300 queries with 2 workers:
+Interval query rate: 1.28 queries/sec   Overall query rate: 1.41 queries/sec
+QuestDB 5 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:    15.45ms, med:   995.62ms, mean:  1417.13ms, max: 6868.73ms, stddev:  1258.58ms, sum: 425.1sec, count: 300
+all queries                                                     :
+min:    15.45ms, med:   995.62ms, mean:  1417.13ms, max: 6868.73ms, stddev:  1258.58ms, sum: 425.1sec, count: 300
+
+Run complete after 300 queries with 2 workers (Overall query rate 1.41 queries/sec):
+QuestDB 5 cpu metric(s), random    1 hosts, random 12h0m0s by 1m:
+min:    15.45ms, med:   995.62ms, mean:  1417.13ms, max: 6868.73ms, stddev:  1258.58ms, sum: 425.1sec, count: 300
+all queries                                                     :
+min:    15.45ms, med:   995.62ms, mean:  1417.13ms, max: 6868.73ms, stddev:  1258.58ms, sum: 425.1sec, count: 300
+wall clock time: 212.775725sec
+
+
+questdb-single-groupby-5-8-1-queries
+
+
+Added index to hostname column of cpu table
+After 100 queries with 2 workers:
+Interval query rate: 3.21 queries/sec   Overall query rate: 3.21 queries/sec
+QuestDB 5 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:    16.79ms, med:   479.04ms, mean:   620.65ms, max: 2360.57ms, stddev:   486.07ms, sum:  62.1sec, count: 100
+all queries                                                    :
+min:    16.79ms, med:   479.04ms, mean:   620.65ms, max: 2360.57ms, stddev:   486.07ms, sum:  62.1sec, count: 100
+
+After 200 queries with 2 workers:
+Interval query rate: 3.41 queries/sec   Overall query rate: 3.31 queries/sec
+QuestDB 5 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:    16.79ms, med:   446.69ms, mean:   603.77ms, max: 3617.66ms, stddev:   528.26ms, sum: 120.8sec, count: 200
+all queries                                                    :
+min:    16.79ms, med:   446.69ms, mean:   603.77ms, max: 3617.66ms, stddev:   528.26ms, sum: 120.8sec, count: 200
+
+After 300 queries with 2 workers:
+Interval query rate: 3.55 queries/sec   Overall query rate: 3.38 queries/sec
+QuestDB 5 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:    16.79ms, med:   433.77ms, mean:   590.53ms, max: 3617.66ms, stddev:   521.89ms, sum: 177.2sec, count: 300
+all queries                                                    :
+min:    16.79ms, med:   433.77ms, mean:   590.53ms, max: 3617.66ms, stddev:   521.89ms, sum: 177.2sec, count: 300
+
+Run complete after 300 queries with 2 workers (Overall query rate 3.38 queries/sec):
+QuestDB 5 cpu metric(s), random    8 hosts, random 1h0m0s by 1m:
+min:    16.79ms, med:   433.77ms, mean:   590.53ms, max: 3617.66ms, stddev:   521.89ms, sum: 177.2sec, count: 300
+all queries                                                    :
+min:    16.79ms, med:   433.77ms, mean:   590.53ms, max: 3617.66ms, stddev:   521.89ms, sum: 177.2sec, count: 300
+wall clock time: 88.784705sec
+
+
+questdb-double-groupby-1-queries
+
+
+Added index to hostname column of cpu table
+After 100 queries with 2 workers:
+Interval query rate: 0.87 queries/sec   Overall query rate: 0.87 queries/sec
+QuestDB mean of 1 metrics, all hosts, random 12h0m0s by 1h:
+min:  2047.68ms, med:  2108.03ms, mean:  2287.74ms, max: 5029.63ms, stddev:   537.32ms, sum: 228.8sec, count: 100
+all queries                                               :
+min:  2047.68ms, med:  2108.03ms, mean:  2287.74ms, max: 5029.63ms, stddev:   537.32ms, sum: 228.8sec, count: 100
+
+After 200 queries with 2 workers:
+Interval query rate: 0.95 queries/sec   Overall query rate: 0.91 queries/sec
+QuestDB mean of 1 metrics, all hosts, random 12h0m0s by 1h:
+min:  2037.31ms, med:  2102.91ms, mean:  2195.18ms, max: 5029.63ms, stddev:   391.91ms, sum: 439.0sec, count: 200
+all queries                                               :
+min:  2037.31ms, med:  2102.91ms, mean:  2195.18ms, max: 5029.63ms, stddev:   391.91ms, sum: 439.0sec, count: 200
+
+After 300 queries with 2 workers:
+Interval query rate: 0.95 queries/sec   Overall query rate: 0.92 queries/sec
+QuestDB mean of 1 metrics, all hosts, random 12h0m0s by 1h:
+min:  2037.31ms, med:  2101.12ms, mean:  2166.02ms, max: 5029.63ms, stddev:   323.52ms, sum: 649.8sec, count: 300
+all queries                                               :
+min:  2037.31ms, med:  2101.12ms, mean:  2166.02ms, max: 5029.63ms, stddev:   323.52ms, sum: 649.8sec, count: 300
+
+Run complete after 300 queries with 2 workers (Overall query rate 0.92 queries/sec):
+QuestDB mean of 1 metrics, all hosts, random 12h0m0s by 1h:
+min:  2037.31ms, med:  2101.12ms, mean:  2166.02ms, max: 5029.63ms, stddev:   323.52ms, sum: 649.8sec, count: 300
+all queries                                               :
+min:  2037.31ms, med:  2101.12ms, mean:  2166.02ms, max: 5029.63ms, stddev:   323.52ms, sum: 649.8sec, count: 300
+wall clock time: 326.014561sec
+
+
+questdb-double-groupby-5-queries
+
+
+Added index to hostname column of cpu table
+After 100 queries with 2 workers:
+Interval query rate: 0.39 queries/sec   Overall query rate: 0.39 queries/sec
+QuestDB mean of 5 metrics, all hosts, random 12h0m0s by 1h:
+min:  3727.49ms, med:  4266.49ms, mean:  5133.06ms, max: 14785.02ms, stddev:  1885.88ms, sum: 513.3sec, count: 100
+all queries                                               :
+min:  3727.49ms, med:  4266.49ms, mean:  5133.06ms, max: 14785.02ms, stddev:  1885.88ms, sum: 513.3sec, count: 100
+
+After 200 queries with 2 workers:
+Interval query rate: 0.45 queries/sec   Overall query rate: 0.42 queries/sec
+QuestDB mean of 5 metrics, all hosts, random 12h0m0s by 1h:
+min:  3727.49ms, med:  4076.67ms, mean:  4804.28ms, max: 14785.02ms, stddev:  1532.44ms, sum: 960.9sec, count: 200
+all queries                                               :
+min:  3727.49ms, med:  4076.67ms, mean:  4804.28ms, max: 14785.02ms, stddev:  1532.44ms, sum: 960.9sec, count: 200
+
+After 300 queries with 2 workers:
+Interval query rate: 0.45 queries/sec   Overall query rate: 0.43 queries/sec
+QuestDB mean of 5 metrics, all hosts, random 12h0m0s by 1h:
+min:  3727.49ms, med:  4082.30ms, mean:  4675.51ms, max: 14785.02ms, stddev:  1325.05ms, sum: 1402.7sec, count: 300
+all queries                                               :
+min:  3727.49ms, med:  4082.30ms, mean:  4675.51ms, max: 14785.02ms, stddev:  1325.05ms, sum: 1402.7sec, count: 300
+
+Run complete after 300 queries with 2 workers (Overall query rate 0.43 queries/sec):
+QuestDB mean of 5 metrics, all hosts, random 12h0m0s by 1h:
+min:  3727.49ms, med:  4082.30ms, mean:  4675.51ms, max: 14785.02ms, stddev:  1325.05ms, sum: 1402.7sec, count: 300
+all queries                                               :
+min:  3727.49ms, med:  4082.30ms, mean:  4675.51ms, max: 14785.02ms, stddev:  1325.05ms, sum: 1402.7sec, count: 300
+wall clock time: 703.683264sec
+
+
+questdb-double-groupby-all-queries
+
+
+Added index to hostname column of cpu table
+After 100 queries with 2 workers:
+Interval query rate: 0.22 queries/sec   Overall query rate: 0.22 queries/sec
+QuestDB mean of 10 metrics, all hosts, random 12h0m0s by 1h:
+min:  6117.63ms, med:  8327.17ms, mean:  8969.55ms, max: 23934.97ms, stddev:  2964.64ms, sum: 897.0sec, count: 100
+all queries                                                :
+min:  6117.63ms, med:  8327.17ms, mean:  8969.55ms, max: 23934.97ms, stddev:  2964.64ms, sum: 897.0sec, count: 100
+
+After 200 queries with 2 workers:
+Interval query rate: 0.25 queries/sec   Overall query rate: 0.24 queries/sec
+QuestDB mean of 10 metrics, all hosts, random 12h0m0s by 1h:
+min:  6013.44ms, med:  7869.95ms, mean:  8452.01ms, max: 23934.97ms, stddev:  2380.77ms, sum: 1690.4sec, count: 200
+all queries                                                :
+min:  6013.44ms, med:  7869.95ms, mean:  8452.01ms, max: 23934.97ms, stddev:  2380.77ms, sum: 1690.4sec, count: 200
+
+After 300 queries with 2 workers:
+Interval query rate: 0.25 queries/sec   Overall query rate: 0.24 queries/sec
+QuestDB mean of 10 metrics, all hosts, random 12h0m0s by 1h:
+min:  6013.44ms, med:  7748.61ms, mean:  8249.41ms, max: 23934.97ms, stddev:  2137.65ms, sum: 2474.8sec, count: 300
+all queries                                                :
+min:  6013.44ms, med:  7748.61ms, mean:  8249.41ms, max: 23934.97ms, stddev:  2137.65ms, sum: 2474.8sec, count: 300
+
+Run complete after 300 queries with 2 workers (Overall query rate 0.24 queries/sec):
+QuestDB mean of 10 metrics, all hosts, random 12h0m0s by 1h:
+min:  6013.44ms, med:  7748.61ms, mean:  8249.41ms, max: 23934.97ms, stddev:  2137.65ms, sum: 2474.8sec, count: 300
+all queries                                                :
+min:  6013.44ms, med:  7748.61ms, mean:  8249.41ms, max: 23934.97ms, stddev:  2137.65ms, sum: 2474.8sec, count: 300
+wall clock time: 1242.250206sec
+
+
+questdb-high-cpu-all-queries
+
+
+Added index to hostname column of cpu table
+After 100 queries with 2 workers:
+Interval query rate: 0.17 queries/sec   Overall query rate: 0.17 queries/sec
+QuestDB CPU over threshold, all hosts:
+min:  6531.84ms, med: 11506.69ms, mean: 11873.99ms, max: 23897.09ms, stddev:  3426.70ms, sum: 1187.4sec, count: 100
+all queries                          :
+min:  6531.84ms, med: 11506.69ms, mean: 11873.99ms, max: 23897.09ms, stddev:  3426.70ms, sum: 1187.4sec, count: 100
+
+After 200 queries with 2 workers:
+Interval query rate: 0.16 queries/sec   Overall query rate: 0.16 queries/sec
+QuestDB CPU over threshold, all hosts:
+min:  5289.73ms, med: 11890.17ms, mean: 12351.59ms, max: 23897.09ms, stddev:  3511.46ms, sum: 2470.3sec, count: 200
+all queries                          :
+min:  5289.73ms, med: 11890.17ms, mean: 12351.59ms, max: 23897.09ms, stddev:  3511.46ms, sum: 2470.3sec, count: 200
+
+After 300 queries with 2 workers:
+Interval query rate: 0.15 queries/sec   Overall query rate: 0.16 queries/sec
+QuestDB CPU over threshold, all hosts:
+min:  5289.73ms, med: 12138.50ms, mean: 12657.38ms, max: 25232.38ms, stddev:  3657.82ms, sum: 3797.2sec, count: 300
+all queries                          :
+min:  5289.73ms, med: 12138.50ms, mean: 12657.38ms, max: 25232.38ms, stddev:  3657.82ms, sum: 3797.2sec, count: 300
+
+Run complete after 300 queries with 2 workers (Overall query rate 0.16 queries/sec):
+QuestDB CPU over threshold, all hosts:
+min:  5289.73ms, med: 12138.50ms, mean: 12657.38ms, max: 25232.38ms, stddev:  3657.82ms, sum: 3797.2sec, count: 300
+all queries                          :
+min:  5289.73ms, med: 12138.50ms, mean: 12657.38ms, max: 25232.38ms, stddev:  3657.82ms, sum: 3797.2sec, count: 300
+wall clock time: 1904.231348sec
+
+
+questdb-high-cpu-1-queries
+
+
+Added index to hostname column of cpu table
+After 100 queries with 2 workers:
+Interval query rate: 0.50 queries/sec   Overall query rate: 0.50 queries/sec
+QuestDB CPU over threshold, 1 host(s):
+min:    11.46ms, med:  1560.51ms, mean:  3979.68ms, max: 22569.98ms, stddev:  5036.15ms, sum: 398.0sec, count: 100
+all queries                          :
+min:    11.46ms, med:  1560.51ms, mean:  3979.68ms, max: 22569.98ms, stddev:  5036.15ms, sum: 398.0sec, count: 100
+
+After 200 queries with 2 workers:
+Interval query rate: 0.69 queries/sec   Overall query rate: 0.58 queries/sec
+QuestDB CPU over threshold, 1 host(s):
+min:    11.46ms, med:  1039.97ms, mean:  3426.83ms, max: 22970.37ms, stddev:  4856.57ms, sum: 685.4sec, count: 200
+all queries                          :
+min:    11.46ms, med:  1039.97ms, mean:  3426.83ms, max: 22970.37ms, stddev:  4856.57ms, sum: 685.4sec, count: 200
+
+After 300 queries with 2 workers:
+Interval query rate: 0.57 queries/sec   Overall query rate: 0.58 queries/sec
+QuestDB CPU over threshold, 1 host(s):
+min:    11.46ms, med:  1003.29ms, mean:  3431.49ms, max: 22970.37ms, stddev:  4708.61ms, sum: 1029.4sec, count: 300
+all queries                          :
+min:    11.46ms, med:  1003.29ms, mean:  3431.49ms, max: 22970.37ms, stddev:  4708.61ms, sum: 1029.4sec, count: 300
+
+Run complete after 300 queries with 2 workers (Overall query rate 0.58 queries/sec):
+QuestDB CPU over threshold, 1 host(s):
+min:    11.46ms, med:  1003.29ms, mean:  3431.49ms, max: 22970.37ms, stddev:  4708.61ms, sum: 1029.4sec, count: 300
+all queries                          :
+min:    11.46ms, med:  1003.29ms, mean:  3431.49ms, max: 22970.37ms, stddev:  4708.61ms, sum: 1029.4sec, count: 300
+wall clock time: 519.085976sec
+
+
+questdb-lastpoint-queries
+
+
+Added index to hostname column of cpu table
+After 100 queries with 2 workers:
+Interval query rate: 96.31 queries/sec  Overall query rate: 96.31 queries/sec
+QuestDB last row per host:
+min:    10.51ms, med:    12.42ms, mean:    20.61ms, max:  354.29ms, stddev:    47.89ms, sum:   2.1sec, count: 100
+all queries              :
+min:    10.51ms, med:    12.42ms, mean:    20.61ms, max:  354.29ms, stddev:    47.89ms, sum:   2.1sec, count: 100
+
+After 200 queries with 2 workers:
+Interval query rate: 165.11 queries/sec Overall query rate: 121.66 queries/sec
+QuestDB last row per host:
+min:    10.21ms, med:    11.95ms, mean:    16.37ms, max:  354.29ms, stddev:    34.25ms, sum:   3.3sec, count: 200
+all queries              :
+min:    10.21ms, med:    11.95ms, mean:    16.37ms, max:  354.29ms, stddev:    34.25ms, sum:   3.3sec, count: 200
+
+After 300 queries with 2 workers:
+Interval query rate: 167.06 queries/sec Overall query rate: 133.78 queries/sec
+QuestDB last row per host:
+min:    10.21ms, med:    11.83ms, mean:    14.90ms, max:  354.29ms, stddev:    28.06ms, sum:   4.5sec, count: 300
+all queries              :
+min:    10.21ms, med:    11.83ms, mean:    14.90ms, max:  354.29ms, stddev:    28.06ms, sum:   4.5sec, count: 300
+
+Run complete after 300 queries with 2 workers (Overall query rate 132.04 queries/sec):
+QuestDB last row per host:
+min:    10.21ms, med:    11.83ms, mean:    14.90ms, max:  354.29ms, stddev:    28.06ms, sum:   4.5sec, count: 300
+all queries              :
+min:    10.21ms, med:    11.83ms, mean:    14.90ms, max:  354.29ms, stddev:    28.06ms, sum:   4.5sec, count: 300
+wall clock time: 2.296725sec
+
+
+questdb-groupby-orderby-limit-queries
+
+
+Added index to hostname column of cpu table
+After 100 queries with 2 workers:
+Interval query rate: 210.93 queries/sec Overall query rate: 210.93 queries/sec
+QuestDB max cpu over last 5 min-intervals (random end):
+min:     7.49ms, med:     8.02ms, mean:     9.38ms, max:   24.35ms, stddev:     3.12ms, sum:   0.9sec, count: 100
+all queries                                           :
+min:     7.49ms, med:     8.02ms, mean:     9.38ms, max:   24.35ms, stddev:     3.12ms, sum:   0.9sec, count: 100
+
+After 200 queries with 2 workers:
+Interval query rate: 212.13 queries/sec Overall query rate: 211.53 queries/sec
+QuestDB max cpu over last 5 min-intervals (random end):
+min:     7.49ms, med:     8.03ms, mean:     9.41ms, max:   30.08ms, stddev:     3.07ms, sum:   1.9sec, count: 200
+all queries                                           :
+min:     7.49ms, med:     8.03ms, mean:     9.41ms, max:   30.08ms, stddev:     3.07ms, sum:   1.9sec, count: 200
+
+After 300 queries with 2 workers:
+Interval query rate: 85.01 queries/sec  Overall query rate: 141.39 queries/sec
+QuestDB max cpu over last 5 min-intervals (random end):
+min:     7.45ms, med:     8.15ms, mean:    14.13ms, max:  683.39ms, stddev:    54.36ms, sum:   4.2sec, count: 300
+all queries                                           :
+min:     7.45ms, med:     8.15ms, mean:    14.13ms, max:  683.39ms, stddev:    54.36ms, sum:   4.2sec, count: 300
+
+Run complete after 300 queries with 2 workers (Overall query rate 139.44 queries/sec):
+QuestDB max cpu over last 5 min-intervals (random end):
+min:     7.45ms, med:     8.15ms, mean:    14.13ms, max:  683.39ms, stddev:    54.36ms, sum:   4.2sec, count: 300
+all queries                                           :
+min:     7.45ms, med:     8.15ms, mean:    14.13ms, max:  683.39ms, stddev:    54.36ms, sum:   4.2sec, count: 300
+wall clock time: 2.179981sec

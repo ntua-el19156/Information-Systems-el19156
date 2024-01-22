@@ -1,0 +1,1 @@
+cat ../../../../tmp/questdb-data2.gz | gunzip | ./tsbs_load_questdb
