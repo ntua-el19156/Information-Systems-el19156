@@ -8,3 +8,7 @@ For this research two Ubuntu Virtual Machines were used. One hosted InfluxDB and
 The commands imply that GO is not already installed.
 After the commands are executed, TSBS is installed. You will find commands and scripts to produce data for each database in their corresponding folder.
 
+# Queries code
+
+The SQL example code file shows SQL examples of each query category.
+

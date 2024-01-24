@@ -1,0 +1,51 @@
+single-groupby-1-1-1
+
+SELECT max(usage_user) FROM benchmark.autogen.cpu WHERE (hostname = 'host_4659') AND time >= '2023-01-03T07:28:37Z' AND time < '2023-01-03T08:28:37Z' GROUP BY time(1m)
+
+single-groupby-1-1-12
+
+SELECT max(usage_user) FROM benchmark.autogen.cpu WHERE (hostname = 'host_4659') AND time >= '2023-01-02T18:28:37Z' AND time < '2023-01-03T06:28:37Z' GROUP BY time(1m)
+
+single-groupby-1-8-1
+
+SELECT max(usage_user) FROM benchmark.autogen.cpu WHERE (hostname = 'host_4659' OR hostname = 'host_3657' OR hostname = 'host_2500' OR hostname = 'host_2819' OR hostname = 'host_24' OR hostname = 'host_4038' OR hostname = 'host_2138' OR hostname = 'host_1718') AND time >= '2023-01-03T07:28:37Z' AND time < '2023-01-03T08:28:37Z' GROUP BY time(1m)
+
+single-groupby-5-1-1
+
+SELECT max(usage_user), max(usage_system), max(usage_idle), max(usage_nice), max(usage_iowait) FROM benchmark.autogen.cpu WHERE (hostname = 'host_4659') AND time >= '2023-01-03T07:28:37Z' AND time < '2023-01-03T08:28:37Z' GROUP BY time(1m)
+
+single-groupby-5-1-12
+
+SELECT max(usage_user), max(usage_system), max(usage_idle), max(usage_nice), max(usage_iowait) FROM benchmark.autogen.cpu WHERE (hostname = 'host_4659') AND time >= '2023-01-02T18:28:37Z' AND time < '2023-01-03T06:28:37Z' GROUP BY time(1m)
+
+single-groupby-5-8-1
+
+SELECT max(usage_user), max(usage_system), max(usage_idle), max(usage_nice), max(usage_iowait) FROM benchmark.autogen.cpu WHERE (hostname = 'host_4659' OR hostname = 'host_3657' OR hostname = 'host_2500' OR hostname = 'host_2819' OR hostname = 'host_24' OR hostname = 'host_4038' OR hostname = 'host_2138' OR hostname = 'host_1718') AND time >= '2023-01-02T18:28:37Z' AND time < '2023-01-03T06:28:37Z' GROUP BY time(1m)
+
+double-groupby-1
+
+SELECT mean(usage_user) FROM benchmark.autogen.cpu WHERE time >= '2023-01-02T18:28:37Z' AND time < '2023-01-03T06:28:37Z' GROUP BY time(1h), hostname
+
+double-groupby-5
+
+SELECT mean(usage_user), mean(usage_system), mean(usage_idle), mean(usage_nice), mean(usage_iowait) FROM benchmark.autogen.cpu WHERE time >= '2023-01-02T18:28:37Z' AND time < '2023-01-03T06:28:37Z' GROUP BY time(1h), hostname
+
+double-groupby-all
+
+SELECT mean(usage_user), mean(usage_system), mean(usage_idle), mean(usage_nice), mean(usage_iowait), mean(usage_irq), mean(usage_softirq), mean(usage_steal), mean(usage_guest), mean(usage_guest_nice) FROM benchmark.autogen.cpu WHERE time >= '2023-01-02T18:28:37Z' AND time < '2023-01-03T06:28:37Z' GROUP BY time(1h), hostname
+
+high-cpu-all
+
+SELECT * FROM benchmark.autogen.cpu WHERE usage_user > 90.000 AND time >= '2023-01-02T18:28:37Z' AND time < '2023-01-03T06:28:37Z'
+
+high-cpu-1
+
+SELECT * FROM benchmark.autogen.cpu WHERE usage_user > 90.000 AND (hostname = 'host_4659') AND time >= '2023-01-02T18:28:37Z' AND time < '2023-01-03T06:28:37Z'
+
+lastpoint
+
+SELECT * FROM benchmark.autogen.cpu GROUP BY hostname ORDER BY time DESC LIMIT 1
+
+groupby-orderby-limit
+
+SELECT max(usage_user) FROM benchmark.autogen.cpu WHERE time < '2023-01-03T08:28:37Z' GROUP BY time(1m) LIMIT 5
